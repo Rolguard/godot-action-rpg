@@ -438,19 +438,16 @@ shape = SubResource("CircleShape2D_u3dtp")
 position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_yyylq")
 
+[node name="attack_cooldown" type="Timer" parent="."]
+wait_time = 0.8
+
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(7, -1)
 zoom = Vector2(4, 4)
-limit_left = -89
-limit_top = -85
-limit_right = 495
-limit_bottom = 265
+limit_left = 0
+limit_top = 0
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 editor_draw_limits = true
-
-[node name="attack_cooldown" type="Timer" parent="."]
-wait_time = 0.8
 
 [node name="receive_damage_cooldown" type="Timer" parent="."]
 wait_time = 2.0

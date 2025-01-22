@@ -182,4 +182,5 @@ z_index = 1
 position = Vector2(33, 47)
 
 [node name="enemy" parent="." instance=ExtResource("5_6aman")]
+z_index = 1
 position = Vector2(131, 77)
